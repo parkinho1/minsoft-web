@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #FFFFFF;
+  color: #0F172A; /* primary DEFAULT */
+  margin: 0;
+  -webkit-font-smoothing: antialiased; /* 폰트 부드럽게 */
+}
