@@ -23,7 +23,15 @@ const Navbar = () => {
         <div className={`hidden md:flex items-center space-x-10 text-sm font-bold uppercase tracking-widest ${isScrolled ? "text-slate-600" : "text-white"}`}>
           <a href="#solutions" className="hover:text-blue-400 transition-colors">Solutions</a>
           <a href="#process" className="hover:text-blue-400 transition-colors">Process</a>
-          <button className={`px-6 py-2 rounded-lg transition-all shadow-xl font-black ${isScrolled ? "bg-slate-900 text-white shadow-slate-200" : "bg-blue-600 text-white shadow-blue-500/20"}`}>
+          <button 
+            {/* 클릭 시 오픈채팅방으로 이동하는 코드 추가 */}
+            onClick={() => window.open('https://open.kakao.com/o/syourlink')} 
+            className={`px-6 py-2 rounded-lg transition-all shadow-xl font-black ${
+              isScrolled 
+              ? "bg-slate-900 text-white shadow-slate-200" 
+              : "bg-blue-600 text-white shadow-blue-500/20"
+            }`}
+          >
             Get a Quote
           </button>
         </div>
