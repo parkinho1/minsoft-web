@@ -124,10 +124,10 @@ function App() {
                 민소프트는 트렌드보다 안정성에 집중합니다. <br /> 유지보수가 용이하고 확장에 강한 기술 스택만을 선별하여 사용합니다.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 text-left max-w-sm mx-auto md:mx-0">
-                <div><h5 className="text-blue-400 text-[10px] font-black mb-2 tracking-widest uppercase opacity-60">Backend</h5><p className="text-sm font-bold">Java, Spring Boot, Node.js</p></div>
+                <div><h5 className="text-blue-400 text-[10px] font-black mb-2 tracking-widest uppercase opacity-60">Backend</h5><p className="text-sm font-bold">Java, Spring Boot, Node.js, Python, PHP</p></div>
                 <div><h5 className="text-blue-400 text-[10px] font-black mb-2 tracking-widest uppercase opacity-60">Frontend</h5><p className="text-sm font-bold">React, Next.js, Tailwind</p></div>
                 <div><h5 className="text-blue-400 text-[10px] font-black mb-2 tracking-widest uppercase opacity-60">Infra</h5><p className="text-sm font-bold">AWS, Docker, Jenkins</p></div>
-                <div><h5 className="text-blue-400 text-[10px] font-black mb-2 tracking-widest uppercase opacity-60">Database</h5><p className="text-sm font-bold">PostgreSQL, Redis</p></div>
+                <div><h5 className="text-blue-400 text-[10px] font-black mb-2 tracking-widest uppercase opacity-60">Database</h5><p className="text-sm font-bold">PostgreSQL, Redis, MySQL</p></div>
               </div>
             </div>
             <div className="bg-white/5 p-8 md:p-12 rounded-[30px] md:rounded-[40px] border border-white/10 relative">
