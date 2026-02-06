@@ -24,8 +24,7 @@ const Navbar = () => {
           <a href="#solutions" className="hover:text-blue-400 transition-colors">Solutions</a>
           <a href="#process" className="hover:text-blue-400 transition-colors">Process</a>
           <button 
-            {/* 클릭 시 오픈채팅방으로 이동하는 코드 추가 */}
-            onClick={() => window.open('https://open.kakao.com/o/syourlink')} 
+            onClick={() => window.open('https://open.kakao.com/o/sjhhq7ei')} 
             className={`px-6 py-2 rounded-lg transition-all shadow-xl font-black ${
               isScrolled 
               ? "bg-slate-900 text-white shadow-slate-200" 
