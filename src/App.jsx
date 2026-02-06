@@ -135,7 +135,7 @@ function App() {
               <FiLayers className="text-blue-600 text-4xl mb-8" />
               <div>
                 <h3 className="text-2xl font-black mb-4 italic">System Design</h3>
-                <p className="text-slate-500 text-sm leading-relaxed break-keep">금융·공공 대규모 프로젝트 설계 경험을 바탕으로, 비즈니스 성장에 맞춰 유연하게 확장 가능한 엔터프라이즈 아키텍처를 구축합니다.</p>
+                <p className="text-slate-500 text-sm leading-relaxed break-keep">공공 대규모 프로젝트 설계 경험을 바탕으로, 비즈니스 성장에 맞춰 유연하게 확장 가능한 엔터프라이즈 아키텍처를 구축합니다.</p>
               </div>
             </div>
           </div>
