@@ -70,7 +70,7 @@ function App() {
               Pure <span className="text-blue-400 font-normal">Logic</span> <br className="hidden md:block" /> For Life.
             </h1>
             <p className="text-[clamp(0.9rem,2.5vw,1.1rem)] text-slate-300 max-w-lg mx-auto md:mx-0 mb-10 font-medium leading-relaxed break-keep">
-              민소프트는 자체 육아 케어 솔루션 **'베베헬퍼(BebeHelper)'** R&D 역량을 바탕으로, <br className="hidden md:block" />
+              민소프트는 자체 육아 케어 솔루션 '베베헬퍼(BebeHelper)' R&D 역량을 바탕으로, <br className="hidden md:block" />
               자잘한 랜딩페이지부터 엔터프라이즈 시스템까지 가장 완벽한 구조를 설계합니다.
             </p>
             <button onClick={openChat} className="w-full md:w-auto flex items-center justify-center gap-3 text-lg font-black bg-white text-slate-900 px-10 py-5 rounded-2xl shadow-2xl transition-transform active:scale-95">
@@ -93,7 +93,7 @@ function App() {
               <div>
                 <span className="text-[10px] font-black uppercase bg-white/20 px-2 py-1 rounded">Project. BebeHelper</span>
                 <h3 className="text-2xl font-black mt-4 mb-4 italic">Parenting Tech</h3>
-                <p className="text-blue-100 text-sm leading-relaxed break-keep">IT 기술로 육아 환경의 불편함을 해소하는 자체 솔루션 **'베베헬퍼'**를 개발 중입니다. 곧 공개될 혁신을 기대해 주세요.</p>
+                <p className="text-blue-100 text-sm leading-relaxed break-keep">IT 기술로 육아 환경의 불편함을 해소하는 자체 솔루션 '베베헬퍼'를 개발 중입니다. 곧 공개될 혁신을 기대해 주세요.</p>
               </div>
             </div>
             <div className="p-10 rounded-[40px] bg-slate-900 text-white flex flex-col justify-between min-h-[380px]">
@@ -121,7 +121,7 @@ function App() {
             <div className="text-center md:text-left">
               <h2 className="text-4xl md:text-6xl font-black tracking-tighter uppercase italic mb-8 italic">The <span className="text-blue-400">Stack.</span></h2>
               <p className="text-slate-400 text-base md:text-lg mb-12 font-medium break-keep">
-                민소프트는 트렌드보다 **안정성**에 집중합니다. <br /> 유지보수가 용이하고 확장에 강한 기술 스택만을 선별하여 사용합니다.
+                민소프트는 트렌드보다 안정성에 집중합니다. <br /> 유지보수가 용이하고 확장에 강한 기술 스택만을 선별하여 사용합니다.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 text-left max-w-sm mx-auto md:mx-0">
                 <div><h5 className="text-blue-400 text-[10px] font-black mb-2 tracking-widest uppercase opacity-60">Backend</h5><p className="text-sm font-bold">Java, Spring Boot, Node.js</p></div>
