@@ -154,30 +154,118 @@ function App() {
         </div>
       </section>
 
-      {/* 3. Footer: 간결하고 프로페셔널하게 */}
-      <footer className="py-24 px-6 bg-slate-50 border-t border-slate-100">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start gap-12">
-          <div className="max-w-md">
-            <div className="text-3xl font-black italic mb-8 tracking-tighter">MINSOFT.</div>
-            <p className="text-xl font-bold text-slate-800 leading-relaxed mb-10">
-              비즈니스의 성장을 가로막는 기술적 한계, <br />
-              민소프트가 해결합니다.
-            </p>
-            <div className="flex flex-wrap gap-4">
-               <button onClick={() => navigator.clipboard.writeText("010-7477-1809")} className="px-6 py-3 bg-slate-900 text-white text-sm font-black rounded-lg">카카오톡 문의</button>
-               <button className="px-6 py-3 bg-white border border-slate-200 text-slate-900 text-sm font-black rounded-lg">010-7477-1809</button>
-            </div>
-          </div>
-          <div className="text-right flex flex-col justify-between h-full">
-            <div className="space-y-4 text-sm font-black text-slate-400 uppercase tracking-widest">
-              <p>Service</p>
-              <p>Process</p>
-              <p>Legal</p>
-            </div>
-            <p className="text-[10px] font-bold text-slate-300 mt-20">© 2026 MINSOFT. ALL RIGHTS RESERVED.</p>
-          </div>
+      {/* 2-1. Process Section: SI 전문가의 워크플로우 */}
+<section id="process" className="py-32 px-6 bg-white">
+  <div className="max-w-7xl mx-auto">
+    <div className="mb-20">
+      <h2 className="text-4xl md:text-6xl font-black tracking-tighter uppercase italic">
+        The <span className="text-blue-600">Process.</span>
+      </h2>
+      <p className="mt-4 text-slate-500 font-bold uppercase tracking-widest text-sm">
+        체계적인 설계가 완벽한 시스템을 만듭니다.
+      </p>
+    </div>
+
+    <div className="grid grid-cols-1 md:grid-cols-5 gap-4">
+      {/* Step 1: 진단 */}
+      <motion.div 
+        whileHover={{ y: -5 }}
+        className="bg-slate-50 p-8 rounded-[30px] border border-slate-100 flex flex-col justify-between h-64"
+      >
+        <span className="text-4xl font-black text-slate-200 italic">01</span>
+        <div>
+          <h4 className="font-black text-xl mb-2">요구사항 진단</h4>
+          <p className="text-slate-500 text-xs font-medium leading-relaxed">비즈니스 목표를 분석하고 최적의 기술 스택을 제안합니다.</p>
         </div>
-      </footer>
+      </motion.div>
+
+      {/* Step 2: 설계 */}
+      <motion.div 
+        whileHover={{ y: -5 }}
+        className="bg-slate-900 p-8 rounded-[30px] text-white flex flex-col justify-between h-64 md:mt-8"
+      >
+        <span className="text-4xl font-black text-blue-600 italic">02</span>
+        <div>
+          <h4 className="font-black text-xl mb-2">아키텍처 설계</h4>
+          <p className="text-slate-400 text-xs font-medium leading-relaxed">확장성과 보안을 고려한 탄탄한 시스템 구조를 설계합니다.</p>
+        </div>
+      </motion.div>
+
+      {/* Step 3: 개발 */}
+      <motion.div 
+        whileHover={{ y: -5 }}
+        className="bg-blue-600 p-8 rounded-[30px] text-white flex flex-col justify-between h-64"
+      >
+        <span className="text-4xl font-black text-white/30 italic">03</span>
+        <div>
+          <h4 className="font-black text-xl mb-2">집중 개발</h4>
+          <p className="text-blue-100 text-xs font-medium leading-relaxed">민소프트만의 Deep Work 방식으로 고품질 코드를 생산합니다.</p>
+        </div>
+      </motion.div>
+
+      {/* Step 4: 검증 */}
+      <motion.div 
+        whileHover={{ y: -5 }}
+        className="bg-slate-50 p-8 rounded-[30px] border border-slate-100 flex flex-col justify-between h-64 md:mt-8"
+      >
+        <span className="text-4xl font-black text-slate-200 italic">04</span>
+        <div>
+          <h4 className="font-black text-xl mb-2">통합 테스트</h4>
+          <p className="text-slate-500 text-xs font-medium leading-relaxed">다양한 환경에서 시스템의 안정성과 성능을 검증합니다.</p>
+        </div>
+      </motion.div>
+
+      {/* Step 5: 운영 */}
+      <motion.div 
+        whileHover={{ y: -5 }}
+        className="bg-slate-200 p-8 rounded-[30px] flex flex-col justify-between h-64"
+      >
+        <span className="text-4xl font-black text-white italic">05</span>
+        <div>
+          <h4 className="font-black text-xl mb-2">운영 및 인계</h4>
+          <p className="text-slate-600 text-xs font-medium leading-relaxed">안정적인 가동을 확인하고 매뉴얼과 함께 시스템을 인계합니다.</p>
+        </div>
+      </motion.div>
+    </div>
+  </div>
+</section>
+
+        {/* 3. Footer: 필수 비즈니스 정보만 노출 */}
+          <footer className="py-20 px-6 bg-slate-50 border-t border-slate-100">
+            <div className="max-w-7xl mx-auto">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
+                <div>
+                  <div className="text-3xl font-black italic mb-6 tracking-tighter">MINSOFT.</div>
+                  <p className="text-lg font-bold text-slate-700 leading-relaxed mb-8">
+                    시스템 통합부터 비즈니스 최적화까지, <br />
+                    검증된 기술력으로 결과물을 증명합니다.
+                  </p>
+                  <div className="flex gap-4">
+                    <button onClick={() => window.open('https://open.kakao.com/...')} className="px-6 py-3 bg-blue-600 text-white text-sm font-black rounded-lg hover:bg-slate-900 transition-all shadow-lg shadow-blue-100">
+                      카카오톡 상담하기
+                    </button>
+                  </div>
+                </div>
+
+                <div className="md:text-right flex flex-col justify-end">
+                  <div className="space-y-2 text-xs font-bold text-slate-500 leading-loose">
+                    <p>상호명: 민소프트 (MinSoft) | 대표자: 박인호</p>
+                    <p>사업자등록번호: 835-51-00903</p>
+                    <p>업태: 정보통신업 | 종목: 응용 소프트웨어 개발 및 공급업</p>
+                    <p className="text-slate-400">온라인 원격 지원 서비스 제공</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="border-t border-slate-200 pt-8 flex flex-col md:flex-row justify-between items-center text-[10px] font-bold text-slate-400 gap-4 uppercase tracking-widest">
+                <p>© 2026 MINSOFT. ALL RIGHTS RESERVED.</p>
+                <div className="flex gap-8">
+                  <a href="#" className="hover:text-blue-600">Terms</a>
+                  <a href="#" className="hover:text-blue-600">Privacy Policy</a>
+                </div>
+              </div>
+            </div>
+          </footer>
     </div>
   );
 }
